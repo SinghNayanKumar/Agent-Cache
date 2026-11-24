@@ -1,0 +1,3 @@
+# CPU trace generation only. Core harness/tests use the Python standard library.
+# Match transformers to the version supported by your pinned SGLang installation.
+transformers>=4.45,<6

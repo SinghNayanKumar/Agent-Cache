@@ -1,0 +1,20 @@
+{
+  "model_path": "EDIT_ME_absolute_path_to_immutable_local_model_snapshot",
+  "model_revision": "EDIT_ME_full_model_commit_SHA",
+  "tokenizer_id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "sglang_commit": "EDIT_ME_full_sglang_commit_SHA",
+  "agentcache_patch_commit": "EDIT_ME_after_implementing_A0",
+  "dtype": "bfloat16",
+  "context_length": 16384,
+  "mem_fraction_static": 0.8,
+  "budgets": [8192, 16384],
+  "policies": ["B0", "B1"],
+  "repeats": 3,
+  "seed": 42,
+  "port": 30000,
+  "startup_timeout_s": 600,
+  "request_timeout_s": 600,
+  "warmup_requests": 2,
+  "extra_server_args": [],
+  "agentcache_server_args": []
+}

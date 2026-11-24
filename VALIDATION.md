@@ -1,0 +1,1 @@
+Local validation: 15 existing pipeline tests passed; all AWS shell scripts passed bash -n; all Python files parsed successfully. No AWS resources were launched. Docker and GPU execution require the documented EC2 pilot. The core measurement harness is unchanged from the PSC package.
